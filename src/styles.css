@@ -1,0 +1,162 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 150%;
+  min-height: 150%;
+  z-index: -100;
+}
+form {
+  justify-content: center;
+}
+.box {
+  border: 1px solid #dfe9f3;
+  border-radius: 15px;
+  margin: 100px 80px;
+  padding: 20px 20px;
+  font-weight: 800;
+  opacity: 0.9;
+  background: radial-gradient(
+    circle at 1.3% 2.8%,
+    rgb(239, 249, 249) 0%,
+    rgb(182, 199, 226) 100.2%
+  );
+}
+.col {
+  font-size: 15px;
+  color: rgb(39, 33, 68);
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  margin: 30px 10px;
+}
+
+h4 {
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 5px;
+  font-weight: 800;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: max-content;
+}
+
+.custom-btn {
+  width: 120px;
+  height: 30px;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 10px;
+}
+
+.btn-1 {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border: 20px;
+}
+
+.btn-1:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+.weather-info {
+  border: 0.5px solid #dfe9f3;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+}
+
+strong {
+  font-size: 45px;
+  display: block;
+  margin: 0 auto;
+}
+.city {
+  display: block;
+  font-size: 30px;
+}
+.units {
+  font-size: 15px;
+  font-weight: thin;
+}
+.icon {
+  display: block;
+  text-align: left;
+}
+
+.weather-icons.active {
+  color: black;
+  cursor: default;
+  margin-top: 20px;
+}
+.weather-icons.active:hover {
+  text-decoration: none;
+}
+.row {
+  margin: 30px 0.5px;
+}
+.col-2 {
+  border: 0.5px solid #000;
+  border-radius: 18px;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  margin: 2px auto;
+  padding: 2px 3px;
+}
+.end-section {
+  font-size: 13px;
+  color: #000;
+  border: 0.5px solid #dfe9f3;
+  border-radius: 5px;
+  font-weight: 800;
+  opacity: 0.9;
+  background: radial-gradient(
+    circle at 1.3% 2.8%,
+    rgb(239, 249, 249) 0%,
+    rgb(182, 199, 226) 100.2%
+  );
+  width: fit-content;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.Repository-btn {
+  font-size: 14px;
+  color: #000;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+}
+.active {
+  border: none;
+  background: none;
+}
+.fahrenheit {
+  border: none;
+  background: none;
+}
