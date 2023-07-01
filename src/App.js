@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import "./weather";
+import Weather from "./weather";
 
 export default function App() {
   return (
@@ -16,8 +16,6 @@ export default function App() {
           />
         </video>
         <div className="box">
-          <Search />
-
           <div className="container">
             <div className="row">
               <div className="col">

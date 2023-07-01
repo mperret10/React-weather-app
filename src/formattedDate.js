@@ -1,8 +1,7 @@
 import React from "react";
 
-export default function Date(props) {
+export default function FormattedDate(props) {
   let now = new Date();
-  let h4 = document.querySelector("h4");
   let days = [
     "Sunday",
     "Monday",
@@ -18,5 +17,5 @@ export default function Date(props) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  return (h4.innerHTML = `${day} ${hours}:${minutes}`);
+  return `${day} ${hours}:${minutes}`;
 }
