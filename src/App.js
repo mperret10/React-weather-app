@@ -15,63 +15,6 @@ export default function App() {
             className="object-fit-fill"
           />
         </video>
-        <div className="box">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="api weather-icons">
-                  <img
-                    src
-                    id="icon"
-                    className="float-left"
-                    width="90"
-                    alt="weather"
-                    rel="noreferrer"
-                  />
-                </div>
-                <strong id="temperature">0</strong>
-                <span class="units">
-                  <button
-                    href=""
-                    id="celcius-link"
-                    className="active"
-                    rel="noreferrer"
-                  >
-                    °C
-                  </button>
-                  |
-                  <button
-                    className="fahrenheit"
-                    id="fahrenheit-link"
-                    rel="noreferrer"
-                  >
-                    °F
-                  </button>
-                </span>
-              </div>
-
-              <div className="weather-info">
-                <div className="city" id="city"></div>
-                <div className="col">
-                  <h4>Today's Date</h4>
-                  <ul>
-                    <li id="description"></li>
-                    <li>
-                      Humidity:
-                      <span id="humidity"></span>%
-                    </li>
-                    <li>
-                      Wind:
-                      <span id="wind"></span>
-                      km/h
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="weather-forecast" id="forecast"></div>
-        </div>
 
         <footer>
           For more details about the forecast,
